@@ -5,14 +5,16 @@ React,Redux, formik, yup, typescript.
 
 Main goal -> Create multipage form.
 
+Features ->
+
+1. You can go back and everything will be saved
+2. Check for every field.
+
 
 * * *
 ### [Demo](https://cold-world.github.io/react-formik-form/)
 
 ![Alt Text](https://i.ibb.co/M9HmvPj/2.gif)
-![Alt Text](https://ibb.co/n6nhhhK)
-![Alt Text](https://ibb.co/JFxs9Kw)
-![Alt Text](https://ibb.co/N7Nv9zW)
 
 * * *
 
