@@ -7,8 +7,8 @@ Main goal -> Create multipage form.
 
 Features ->
 
-1. You can go back and everything will be saved
-2. Check for every field.
+1. You can go back and everything will be saved.
+2. Fields validation.
 
 
 * * *
