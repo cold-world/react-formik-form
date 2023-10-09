@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'SansInterface';
+  src: url('./assets/37086b994764dba84b2ee0f1083bfeed.woff2');
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'SansInterface', Arial, Helvetica, sans-serif;
+  
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type='checkbox']:checked:before {
+  content: '✔';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  scale: 1.3;
+}
+
+input[type='radio'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: solid 2px rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type='radio']:checked:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  left: 2px;
+  top: 2px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  background-color: black;
+}
+
+input[type='textarea'] {
+  font-family: 'SansInterface', Arial, Helvetica, sans-serif;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  color: grey;
+  font-family: 'SansInterface', Arial, Helvetica, sans-serif;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'Arial', sans-serif;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  background-image: url('../src//assets//arrow-down.png');
+  background-repeat: no-repeat;
+  background-position: right 13px center;
+  background-size: 12px;
+  font-family: 'SansInterface', Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  box-sizing: border-box;
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: var(--background);
+  font-family: 'SansInterface', Arial, Helvetica, sans-serif;
+  color: var(--black);
+}
+
+.tip {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: grey;
+}
+
+:root {
+  --background: #f4f4f5;
+  --white: #ffffff;
+  --purple: #5558fa;
+  --blue-light: #d5e4f7;
+  --black: #333333;
+}

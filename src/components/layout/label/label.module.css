@@ -1,0 +1,15 @@
+.label {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+  margin-top: 2.4rem;
+
+}
+
+.checkbox {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 0;
+}
