@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Formik, Field, Form, ErrorMessage, FieldArray } from 'formik';
 import * as Yup from 'yup';
 import { incrementStep, decrementStep } from '../store/stepSlice';
-import { Step2State, updateStep2, removeAdvantage, toggleCheckbox } from '../store/step2Slice';
+import { Step2State, updateStep2, removeAdvantage } from '../store/step2Slice';
 import { Frame, Label, Stepper } from '../components/layout';
 import { Button } from '../components/ui';
 import icon from '../assets/remove-button.png';
@@ -73,7 +73,7 @@ const Step2 = () => {
         })}
         onSubmit={handleSubmit}
       >
-        {({ values }) => (
+        {() => (
           <Form>
             <FieldArray name='advantages'>
               {({ push, remove, form }) => (

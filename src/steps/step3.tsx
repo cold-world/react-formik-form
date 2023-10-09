@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { decrementStep } from '../store/stepSlice';
 import { updateStep3 } from '../store/step3Slice';
