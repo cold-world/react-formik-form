@@ -9,7 +9,10 @@ Main goal -> Create multipage form.
 * * *
 ### [Demo](https://cold-world.github.io/react-formik-form/)
 
-![Alt Text](https://ibb.co/nRyFGQV)
+![Alt Text](https://ibb.co/JnW8pfZ)
+![Alt Text](https://ibb.co/n6nhhhK)
+![Alt Text](https://ibb.co/JFxs9Kw)
+![Alt Text](https://ibb.co/N7Nv9zW)
 
 * * *
 
