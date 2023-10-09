@@ -79,7 +79,7 @@ const Step2 = () => {
               {({ push, remove, form }) => (
                 <div>
                   <Label htmlFor='advantages'>Advantages</Label>
-                  {form.values.advantages.map((value: string, index: number) => (
+                  {form.values.advantages.map((index: number) => (
                     <div style={{ display: 'flex', gap: '1.8rem' }} key={index}>
                       <Field
                         name={`advantages[${index}]`}
